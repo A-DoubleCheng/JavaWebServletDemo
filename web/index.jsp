@@ -1,16 +1,15 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Administrator
-  Date: 2017/6/13
-  Time: 10:52
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>hello</title>
-  </head>
-  <body>
-  hello
-  </body>
+<head>
+  <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
+
+  <meta charset="utf-8">
+  <title>2/3</title>
+</head>
+<body>
+<h1>我的第一个标题</h1>
+<p>我的第一个段落。</p>
+</body>
 </html>
+

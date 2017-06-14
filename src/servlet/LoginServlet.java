@@ -1,3 +1,5 @@
+package servlet;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -8,7 +10,7 @@ import java.io.PrintWriter;
 /**
  * Created by Administrator on 2017/6/13.
  */
-public class HelloWorld extends HttpServlet{
+public class LoginServlet extends HttpServlet{
     private String message;
 
     @Override
