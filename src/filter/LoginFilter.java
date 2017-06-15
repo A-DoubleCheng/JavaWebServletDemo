@@ -24,25 +24,30 @@ public class LoginFilter implements Filter {
         HttpServletResponse response = (HttpServletResponse)servletResponse;
 
         String currentURL = request.getRequestURI();
+        String checkCSS = request.getRequestURI();
         String ctxPath = request.getContextPath();
 
         String targetURL = currentURL.substring(ctxPath.length());
         HttpSession session = request.getSession(false);
 
-        if(!("").equals(targetURL)){
-            if(session == null || session.getAttribute("username") == null || ("").equals(session.getAttribute("username"))){
-                response.sendRedirect(LOGOUT_PAGE);
-                return;
-            }else {
+        if(checkCSS.toLowerCase().contains(".css") || checkCSS.toLowerCase().contains(".js") || checkCSS.toLowerCase().contains(".png") || checkCSS.toLowerCase().contains(".gif") || checkCSS.toLowerCase().contains(".jpg")){
+            filterChain.doFilter(request, response);
+            return;
+        }else if (!("/login.html").equals(targetURL)) {
+
+                if (session == null || session.getAttribute("username") == null || ("").equals(session.getAttribute("username"))) {
+                    response.sendRedirect(LOGOUT_PAGE);
+                } else {
+                    filterChain.doFilter(request, response);
+                    return;
+                }
+            } else {
                 filterChain.doFilter(request, response);
                 return;
             }
-        }else {
-            filterChain.doFilter(request, response);
-            return;
         }
 
-    }
+
 
     @Override
     public void destroy() {

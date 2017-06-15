@@ -1,11 +1,22 @@
-title{
-    color: cornsilk;
+@charset "utf-8";
+@media screen and (max-width: 500px){
+
+}
+@media screen and (min-width: 500px){
+
+}
+body{
+    background: url("../img/login.jpg");
 }
 
-h1{
-    color: blue;
+.row{
+    margin: 30% 10% 20% 10%;
 }
-
-p{
-    color: darkgray;
+.row form{
+    text-align: center;
+    position: absolute;
 }
+/*
+.row div{
+    border: 1px solid #000000;
+}*/
