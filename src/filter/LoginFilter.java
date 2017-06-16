@@ -30,7 +30,7 @@ public class LoginFilter implements Filter {
         String targetURL = currentURL.substring(ctxPath.length());
         HttpSession session = request.getSession(false);
 
-        if(checkCSS.toLowerCase().contains(".css") || checkCSS.toLowerCase().contains(".js") || checkCSS.toLowerCase().contains(".png") || checkCSS.toLowerCase().contains(".gif") || checkCSS.toLowerCase().contains(".jpg") || checkCSS.toLowerCase().contains(".jpeg") || checkCSS.toLowerCase().contains(".ico")){
+        if(checkCSS.toLowerCase().contains(".css") || checkCSS.toLowerCase().contains(".js") || checkCSS.toLowerCase().contains(".png") || checkCSS.toLowerCase().contains(".gif") || checkCSS.toLowerCase().contains(".jpg") || checkCSS.toLowerCase().contains(".jpeg") || checkCSS.toLowerCase().contains(".ico") || checkCSS.toLowerCase().contains("main.html")){
             filterChain.doFilter(request, response);
             return;
         }else if (!("/login.html").equals(targetURL)) {
