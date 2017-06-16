@@ -7,9 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <title>心猿意马 - 登录</title>
+    <title>CODE IN HEART - LOGIN</title>
     <link rel="stylesheet" type="text/css" href="static/css/style.css" />
     <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="static/img/icon/favicon.ico" rel="bookmark" type="image/x-icon" />
+    <link href="static/img/icon/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="static/img/icon/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 
     <script src="static/js/jquery-1.6.min.js"/>
     <script src="static/bootstrap/js/bootstrap.min.js"></script>
@@ -23,19 +27,37 @@
         <div class="col-xs-6 col-sm-8">
 
             <form class="form-horizontal">
+
                 <div class="form-group">
-                    <label class="col-sm-2 control-label">UserName:&nbsp;</label>
-                    <div class="col-sm-10">
-                    <input type="text">
+                    <div class="col-sm-12">
+                        <h1>CODE<em>&nbsp;</em>IN<em>&nbsp;</em>HEART</h1>
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label class="col-sm-2 control-label">PassWord:&nbsp;</label>
-                    <div class="col-sm-10">
-                    <input type="password">
+                    <div class="col-sm-12">
+                    <input class="text-input" type="text" placeholder="username">
                     </div>
                 </div>
+
+                <div class="form-group">
+                    <div class="col-sm-12">
+                    <input class="text-input" type="password" placeholder="password">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <input class="text-submit" type="submit" value="Submit">
+                    </div>
+                </div>
+
+                        <div>
+                            <div class="forgetpwd col-sm-6"><label><a class="forgetpwd" href=";">forget password ?</a></label></div>
+                            <div class="col-sm-6"></div>
+                            <div class="rigister col-sm-6"><label><a class="rigister" href=";">register</a></label></div>
+                        </div>
+
             </form>
 
         </div>
