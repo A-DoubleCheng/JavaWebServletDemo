@@ -22,32 +22,36 @@
 <div class="row">
     <div class="col-sm-2"></div>
     <%--头部--%>
-    <div class="cih-content col-xs-12 col-sm-8">
-    <div class="cih-heard">
+    <div class="col-xs-12 col-sm-8 cih-content">
+    <div class="row col-xs-2 col-sm-2 cih-heard">
         <%--Logo--%>
-        <div class="cih-logo"></div>
+        <div class="col-xs-4 col-sm-3 cih-logo">这里是logo</div>
             <%--分类--%>
-        <div class="cih-nav"></div>
+        <div class="col-xs-8 co-sm-9 cih-nav">这里是分类</div>
     </div>
 
         <%--banner--%>
-    <div class="cih-banner"></div>
+    <div class=" col-xs-4 col-sm-4 cih-banner">这里是banner</div>
 
         <%--大内容在里面--%>
     <div class="cih-bra">
         <div class="cih-list">
-            <div class="cih-list_items"></div>
-            <div class="cih-list_page"></div>
+            <div class="cih-list_items">这里是列表</div>
+            <div class="cih-list_page">这里要做分页</div>
         </div>
     </div>
+
+        <%--底部版权什么鬼的--%>
+        <div class="cih-bottom">版权</div>
+
     </div>
 
     <div class="col-sm-2"></div>
 
-        <%--底部版权什么鬼的--%>
-    <div class="cih-bottom"></div>
+
 
 </div>
+
 </div>
 </body>
 </html>
