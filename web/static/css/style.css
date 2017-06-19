@@ -30,3 +30,5 @@ body{  background: url("../img/login.jpg") center center no-repeat;  background-
 
 /*-----------------------------------------------Main-----------------------------------------*/
 div.main{width: 1200px}
+
+div.row div{border:1px solid #000000}

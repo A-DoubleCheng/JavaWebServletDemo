@@ -18,9 +18,11 @@
     <script src="static/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="main">
-
+<div class="main container">
+<div class="row">
+    <div class="col-sm-2"></div>
     <%--头部--%>
+    <div class="cih-content col-xs-12 col-sm-8">
     <div class="cih-heard">
         <%--Logo--%>
         <div class="cih-logo"></div>
@@ -38,10 +40,14 @@
             <div class="cih-list_page"></div>
         </div>
     </div>
+    </div>
+
+    <div class="col-sm-2"></div>
 
         <%--底部版权什么鬼的--%>
     <div class="cih-bottom"></div>
 
+</div>
 </div>
 </body>
 </html>
