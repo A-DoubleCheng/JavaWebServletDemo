@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <title>CODE IN HEART - MAIN</title>
+    <title>CODE IN HEART - 心 猿 意 码</title>
     <link rel="stylesheet" type="text/css" href="static/css/style.css" />
     <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -18,39 +18,98 @@
     <script src="static/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="main container">
-<div class="row">
-    <div class="col-sm-2"></div>
+<div class="cih-header">
     <%--头部--%>
-    <div class="col-xs-12 col-sm-8 cih-content">
-    <div class="row col-xs-2 col-sm-2 cih-heard">
-        <%--Logo--%>
-        <div class="col-xs-4 col-sm-3 cih-logo">这里是logo</div>
+    <div class="container">
+        <div class="row">
+            <%--Logo--%>
+            <div class="col-sm-7 cih-logo">
+                <ul>
+                    <li><img src="static/img/icon/favicon.ico"></li>
+                    <li class="logo"><img src="static/img/LOGO.png"></li>
+                </ul>
+            </div>
             <%--分类--%>
-        <div class="col-xs-8 co-sm-9 cih-nav">这里是分类</div>
-    </div>
-
-        <%--banner--%>
-    <div class=" col-xs-4 col-sm-4 cih-banner">这里是banner</div>
-
-        <%--大内容在里面--%>
-    <div class="cih-bra">
-        <div class="cih-list">
-            <div class="cih-list_items">这里是列表</div>
-            <div class="cih-list_page">这里要做分页</div>
+            <div class="col-sm-5 cih-nav">
+                <ul>
+                    <li><a>Source Code</a></li>
+                    <li><a>Version List</a></li>
+                    <li><a>Author</a></li>
+                </ul>
+            </div>
         </div>
     </div>
+</div>
 
-        <%--底部版权什么鬼的--%>
-        <div class="cih-bottom">版权</div>
+    <%--banner--%>
+<div class="cih-banner" style="background: url('static/img/Banner2.jpg'); background-size: cover">
+</div>
+
+<div class="main container">
+
+    <div class="row">
+
+        <div class="col-sm-4 cih-account">
+            <div class="cih-account-child">
+                <div>
+                    <ul class="cih-imgname">
+                        <li>图片</li>
+                        <li>名字</li>
+                    </ul>
+                </div>
+                <div class="cih-line"></div>
+                <ul class="cih-data">
+                    <li>访问</li>
+                    <li>积分</li>
+                    <li>等级</li>
+                    <li>排名</li>
+                </ul>
+                <div class="cih-line"></div>
+                <ul class="cih-clicknum">
+                    <li>原创</li>
+                    <li>转载</li>
+                    <li>译文</li>
+                    <li>评论</li>
+                </ul>
+            </div>
+        </div>
+
+        <%--大内容在里面--%>
+                <div class="col-sm-8 cih-list">
+                    <div class="cih-list_items">
+                        <ul>
+                            <li>
+                                <div class="cih-item">
+                                    <div class="cih-title"><h4><b><a>[Sonatype Nexus]Nexus配置私有Maven库引入自定义jar包 </a></b></h4></div>
+                                    <div class="cih-content">短内容</div>
+                                    <div>
+                                    <ul class="cih-click">
+                                        <li>删除</li>
+                                        <li>编辑</li>
+                                        <li>阅读</li>
+                                        <li>评论</li>
+                                        <li>时间</li>
+                                    </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="cih-list-page">一个分页的DIV</div>
+                </div>
+
 
     </div>
 
-    <div class="col-sm-2"></div>
-
-
-
 </div>
+
+    <%--底部版权什么鬼的--%>
+    <div class="cih-bottom">
+        <div class="container">
+            底部版权
+        </div>
+    </div>
 
 </div>
 </body>
