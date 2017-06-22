@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" />
 <html>
 <head>
     <meta charset="utf-8">
@@ -25,7 +26,6 @@
             <%--Logo--%>
             <div class="col-sm-7 cih-logo">
                 <ul>
-                    <li><img src="static/img/icon/favicon.ico"></li>
                     <li class="logo"><img src="static/img/LOGO.png"></li>
                 </ul>
             </div>
@@ -51,6 +51,10 @@
 
         <div class="col-sm-4 cih-account">
             <div class="cih-account-child">
+                <div class="cih-master-info">
+                    <p>博主信息</p>
+                </div>
+                <div class="cih-line"></div>
                 <div>
                     <ul class="cih-imgname">
                         <li>图片</li>

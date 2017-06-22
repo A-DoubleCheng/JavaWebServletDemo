@@ -26,41 +26,44 @@ body{  background: url("../img/Banner.jpg") center center no-repeat;  background
 /*设置特定div坐标*/
 .row div.forgetpwd{text-align: left; font-size: 14px}
 .row div.rigister{text-align: right; font-size: 14px}
-
 /*-----------------------------------------------Main-----------------------------------------*/
-
-/*.main .col-lg-1,.main .col-lg-10,.main .col-lg-11,.main .col-lg-12,.main .col-lg-2,.main .col-lg-3,.main .col-lg-4,.main .col-lg-5,.main .col-lg-6,.main .col-lg-7,.main .col-lg-8,.main .col-lg-9,.main .col-md-1,.main .col-md-10,.main .col-md-11,.main .col-md-12,.main .col-md-2,.main .col-md-3,.main .col-md-4,.main .col-md-5,.main .col-md-6,.main .col-md-7,.main .col-md-8,.main .col-md-9,.main .col-sm-1,.main .col-sm-10,.main .col-sm-11,.main .col-sm-12,.main .col-sm-2,.main .col-sm-3,.main .col-sm-4,.main .col-sm-5,.main .col-sm-6,.main .col-sm-7,.main .col-sm-8,.main .col-sm-9,.main .col-xs-1,.main .col-xs-10,.main .col-xs-11,.main .col-xs-12,.main .col-xs-2,.main .col-xs-3,.main .col-xs-4,.main .col-xs-5,.main .col-xs-6,.main .col-xs-7,.main .col-xs-8,.main .col-xs-9 {position: relative;padding-right: 0px;padding-left: 0px;}*/
-
 /*设置header透明度*/
 .cih-header{height: 150px; background: #ffffff; filter:alpha(Opacity=80); -moz-opacity: 0.8;opacity: 0.8}
 /*设置banner透明度*/
 .cih-banner{height: 400px; background: #333; filter:alpha(Opacity=90); -moz-opacity: 0.9;opacity: 0.9}
 /*将ul样式重置，以及内边距外边距*/
 ul{list-style: none; padding: 0px; margin: 0px;}
-
+/*logo样式*/
 .cih-logo li{float: left; margin: 10px 10px 10px 50px;display: inline-block}
 .cih-logo .logo{margin: 50px 0px 10px 0px;}
+/*分类栏样式*/
 .cih-nav li{float: right; padding: 5px 5px 5px 5px; margin: 70px 10px 10px 10px;font-size: 21px;}
 /*-----------------------------------------list---------------------------------------------------*/
-div.cih-list{ }
-
+/*博文列表子信息样式*/
 div.cih-item{background: rgba(255, 255, 255, 0.6); border-radius: 10px; margin: 10px 0px 10px 0px; padding: 5px 5px 5px 10px;}
-
+/*博文列表子信息时间、评论、阅读、编辑、删除那里的伪类*/
 ul.cih-click:after{content:" ";display:block;height:0;clear:both;visibility:hidden;font-size:0px;line-height:0px;}
+/*博文列表子信息时间、评论、阅读、编辑、删除那里的li样式*/
 ul.cih-click li{float: right; margin: 10px 10px 15px 25px;}
 /*分页div*/
 div.cih-list-page{margin: 10px 0px 10px 0px; background: rgba(255, 255, 255, 0.6); border-radius: 10px;}
+/*复用的虚线样式*/
 div.cih-line{border: 2px dashed rgba(0, 0, 0, 0.6); width: 100%; margin-bottom: 10px;margin-top: 10px;}
 /*---------------------------------------account--------------------------------------------------*/
+/*左侧整个资料框div的样式*/
 div.cih-account{font-size: 18px; margin-top: 10px;}
+/*左侧整个资料框下的子div的样式*/
 div.cih-account-child{background: rgba(255, 255, 255, 0.6); border-radius: 10px; padding-top: 10px;}
-
+/*左侧整个资料框下的博主信息*/
+div.cih-master-info{text-align: center;}
+/*左侧整个资料框下的图片、名字div样式*/
 ul.cih-imgname{margin: 0px 25px 20px 25px; text-align: center;}
-
+/*左侧整个资料框下原创、转载、译文、评论那里的伪类*/
 ul.cih-clicknum:after{content:" ";display:block;height:0;clear:both;visibility:hidden;font-size:0px;line-height:0px;}
-
-ul.cih-data li{text-align: left; margin-left: 25px;}
+/*左侧整个资料框下原创、转载、译文、评论那里的li样式*/
 ul.cih-clicknum li{float: left; margin: 10px 10px 15px 25px;}
+/*左侧整个资料框下访问、积分、等级、排名的li样式*/
+ul.cih-data li{text-align: left; margin-left: 25px;}
 /*----------------------------------------底部版权---------------------------------------------------*/
 div.cih-bottom{background: #ffffff; filter:alpha(Opacity=80); -moz-opacity: 0.8;opacity: 0.8; text-align: center;}
 /*-------------------------------------------重写---------------------------------------------------*/
